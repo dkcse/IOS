@@ -11,15 +11,9 @@
 @interface CalculatorBrain : NSObject
 
 @property (nonatomic,strong) NSMutableArray *operandStack;
--(void) pushOperand:(double)oprand;
--(double)performOperation:(NSString *)operation;
 
+- (void) pushOperand:(double) oprand;
 
-
-
-//-(double)popOperand;
- // @property(readonly) id program;
-
-//+(double)runProgram:(id)program;
+- (double) performOperation:(NSString *) operation;
 
 @end
