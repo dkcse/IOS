@@ -1,120 +1,0 @@
-Tfirst
-v7
-r0
-t363794631.168198
-cCheck dependencies
-cProcessPCH /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch.pth first/first-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/first.build/Debug/first.build/Objects-normal/x86_64/main.o /Users/deepakkumar/Desktop/first/first/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/first.build/Debug/first.build/Objects-normal/x86_64/shape.o /Users/deepakkumar/Desktop/first/first/shape.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CAA740400000000000C7160
-t1286239236
-s815456
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C23AA0400000000000013E6
-t1277405700
-s5094
-
-N/Users/deepakkumar/Desktop/first/build/Debug/first
-t2
-s0
-
-N/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/Objects-normal/x86_64/first.LinkFileList
-c000000004FFED8F700000000000000C5
-t1342101751
-s197
-
-N/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/Objects-normal/x86_64/shape.o
-t1342101831
-s21228
-
-N/Users/deepakkumar/Desktop/first/first/first-Prefix.pch
-c000000004FFC02C60000000000000097
-t1341915846
-s151
-i<Foundation/Foundation.h>
-
-N/Users/deepakkumar/Desktop/first/first/main.m
-c000000004FFE53560000000000001DD5
-t1342067542
-s7637
-i<Foundation/Foundation.h>
-i"shape.h"
-
-N/Users/deepakkumar/Desktop/first/first/shape.h
-c000000004FFD4DD600000000000002A9
-t1342000598
-s681
-i<Foundation/Foundation.h>
-
-N/Users/deepakkumar/Desktop/first/first/shape.m
-c000000004FFED946000000000000036C
-t1342101830
-s876
-i"shape.h"
-
-N/var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch.pth
-t1342101751
-s6581320
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies363794631#363794631#0(155"[WARN]Mac OS X deployment target '10.7' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.1(22@148"Mac OS X deployment target '10.7' for architecture 'x86_64' and variant 'normal' is greater than the maximum value '10.6' for the Mac OS X 10.6 SDK.363794631#18446744073709551615#0#0(1@0"0(0#1#0"17210506752#0"0#
-
-CCompileC build/first.build/Debug/first.build/Objects-normal/x86_64/main.o /Users/deepakkumar/Desktop/first/first/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363794631.138902
-e363794631.153861
-r0
-xCompileC
-xbuild/first.build/Debug/first.build/Objects-normal/x86_64/main.o
-x/Users/deepakkumar/Desktop/first/first/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/deepakkumar/Desktop/first/first/main.m:15:5: error: unexpected '@' in program
-o     @autoreleasepool {
-o     ^
-o1 error generated.
-lSLF07#2@53"Compile /Users/deepakkumar/Desktop/first/first/main.m363794631#363794631#0(135"/Users/deepakkumar/Desktop/first/first/main.m:15:5: error: unexpected '@' in program     @autoreleasepool {     ^1 error generated.1(4@25"Unexpected '@' in program363794631#0#85#0(6@45"/Users/deepakkumar/Desktop/first/first/main.m363760342#15#5#0#0#25"unexpected '@' in program0(0#0#45"/Users/deepakkumar/Desktop/first/first/main.m4506992272#1408"    cd /Users/deepakkumar/Desktop/first    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-generated-files.hmap -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-own-target-headers.hmap -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-all-target-headers.hmap -iquote /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-project-headers.hmap -F/Users/deepakkumar/Desktop/first/build/Debug -I/Users/deepakkumar/Desktop/first/build/Debug/include -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/DerivedSources/x86_64 -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/DerivedSources -include /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch -c /Users/deepakkumar/Desktop/first/first/main.m -o /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/Objects-normal/x86_64/main.o1#
-
-CCompileC build/first.build/Debug/first.build/Objects-normal/x86_64/shape.o /Users/deepakkumar/Desktop/first/first/shape.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363794631.139437
-e363794631.168141
-r1
-xCompileC
-xbuild/first.build/Debug/first.build/Objects-normal/x86_64/shape.o
-x/Users/deepakkumar/Desktop/first/first/shape.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@54"Compile /Users/deepakkumar/Desktop/first/first/shape.m363794631#363794631#0(0"0(0#0#46"/Users/deepakkumar/Desktop/first/first/shape.m4506992272#1410"    cd /Users/deepakkumar/Desktop/first    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-generated-files.hmap -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-own-target-headers.hmap -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-all-target-headers.hmap -iquote /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-project-headers.hmap -F/Users/deepakkumar/Desktop/first/build/Debug -I/Users/deepakkumar/Desktop/first/build/Debug/include -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/DerivedSources/x86_64 -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/DerivedSources -include /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch -c /Users/deepakkumar/Desktop/first/first/shape.m -o /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/Objects-normal/x86_64/shape.o0#
-
-CLd /Users/deepakkumar/Desktop/first/build/Debug/first normal x86_64
-r0
-
-CProcessPCH /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch.pth first/first-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s363794551.429228
-e363794551.865680
-r1
-xProcessPCH
-x/var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch.pth
-xfirst/first-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF07#2@33"Precompile first/first-Prefix.pch363794551#363794551#0(0"0(0#0#55"/Users/deepakkumar/Desktop/first/first/first-Prefix.pch17202987264#1322"    cd /Users/deepakkumar/Desktop/first    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -iquote /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-generated-files.hmap -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-own-target-headers.hmap -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-all-target-headers.hmap -iquote /Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/first-project-headers.hmap -F/Users/deepakkumar/Desktop/first/build/Debug -I/Users/deepakkumar/Desktop/first/build/Debug/include -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/DerivedSources/x86_64 -I/Users/deepakkumar/Desktop/first/build/first.build/Debug/first.build/DerivedSources -c /Users/deepakkumar/Desktop/first/first/first-Prefix.pch -o /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/first-Prefix-daxuuvcbnvakbnfubnapmdxnmfug/first-Prefix.pch.pth0#
-
