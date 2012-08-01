@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AC0632A15C900AA0088CF38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC0632915C900AA0088CF38 /* UIKit.framework */; };
+		6AC0632C15C900AA0088CF38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC0632B15C900AA0088CF38 /* Foundation.framework */; };
+		6AC0632E15C900AA0088CF38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC0632D15C900AA0088CF38 /* CoreGraphics.framework */; };
+		6AC0633415C900AA0088CF38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AC0633215C900AA0088CF38 /* InfoPlist.strings */; };
+		6AC0633615C900AA0088CF38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0633515C900AA0088CF38 /* main.m */; };
+		6AC0633A15C900AA0088CF38 /* PropertyListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0633915C900AA0088CF38 /* PropertyListAppDelegate.m */; };
+		6AC0633D15C900AA0088CF38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC0633B15C900AA0088CF38 /* MainStoryboard.storyboard */; };
+		6AC0634015C900AA0088CF38 /* PropertyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0633F15C900AA0088CF38 /* PropertyListViewController.m */; };
+		6AC0634815C905950088CF38 /* RectanglePropertyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0634715C905950088CF38 /* RectanglePropertyListViewController.m */; };
+		6AC0634D15C9072B0088CF38 /* MyPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AC0634C15C9072B0088CF38 /* MyPropertyList.plist */; };
+		6AC0635415C923E20088CF38 /* TrianglePropertyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0635315C923E20088CF38 /* TrianglePropertyListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AC0632515C900AA0088CF38 /* MyPropertyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPropertyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC0632915C900AA0088CF38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AC0632B15C900AA0088CF38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AC0632D15C900AA0088CF38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AC0633115C900AA0088CF38 /* MyPropertyList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPropertyList-Info.plist"; sourceTree = "<group>"; };
+		6AC0633315C900AA0088CF38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AC0633515C900AA0088CF38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AC0633715C900AA0088CF38 /* MyPropertyList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPropertyList-Prefix.pch"; sourceTree = "<group>"; };
+		6AC0633815C900AA0088CF38 /* PropertyListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyListAppDelegate.h; sourceTree = "<group>"; };
+		6AC0633915C900AA0088CF38 /* PropertyListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyListAppDelegate.m; sourceTree = "<group>"; };
+		6AC0633C15C900AA0088CF38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6AC0633E15C900AA0088CF38 /* PropertyListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyListViewController.h; sourceTree = "<group>"; };
+		6AC0633F15C900AA0088CF38 /* PropertyListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyListViewController.m; sourceTree = "<group>"; };
+		6AC0634615C905950088CF38 /* RectanglePropertyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectanglePropertyListViewController.h; sourceTree = "<group>"; };
+		6AC0634715C905950088CF38 /* RectanglePropertyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectanglePropertyListViewController.m; sourceTree = "<group>"; };
+		6AC0634C15C9072B0088CF38 /* MyPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyPropertyList.plist; sourceTree = "<group>"; };
+		6AC0635215C923E10088CF38 /* TrianglePropertyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrianglePropertyListViewController.h; sourceTree = "<group>"; };
+		6AC0635315C923E20088CF38 /* TrianglePropertyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrianglePropertyListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AC0632215C900AA0088CF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC0632A15C900AA0088CF38 /* UIKit.framework in Frameworks */,
+				6AC0632C15C900AA0088CF38 /* Foundation.framework in Frameworks */,
+				6AC0632E15C900AA0088CF38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AC0631A15C900AA0088CF38 = {
+			isa = PBXGroup;
+			children = (
+				6AC0632F15C900AA0088CF38 /* MyPropertyList */,
+				6AC0632815C900AA0088CF38 /* Frameworks */,
+				6AC0632615C900AA0088CF38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AC0632615C900AA0088CF38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC0632515C900AA0088CF38 /* MyPropertyList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AC0632815C900AA0088CF38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC0632915C900AA0088CF38 /* UIKit.framework */,
+				6AC0632B15C900AA0088CF38 /* Foundation.framework */,
+				6AC0632D15C900AA0088CF38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AC0632F15C900AA0088CF38 /* MyPropertyList */ = {
+			isa = PBXGroup;
+			children = (
+				6AC0633815C900AA0088CF38 /* PropertyListAppDelegate.h */,
+				6AC0633915C900AA0088CF38 /* PropertyListAppDelegate.m */,
+				6AC0633B15C900AA0088CF38 /* MainStoryboard.storyboard */,
+				6AC0633E15C900AA0088CF38 /* PropertyListViewController.h */,
+				6AC0633F15C900AA0088CF38 /* PropertyListViewController.m */,
+				6AC0634615C905950088CF38 /* RectanglePropertyListViewController.h */,
+				6AC0634715C905950088CF38 /* RectanglePropertyListViewController.m */,
+				6AC0635215C923E10088CF38 /* TrianglePropertyListViewController.h */,
+				6AC0635315C923E20088CF38 /* TrianglePropertyListViewController.m */,
+				6AC0633015C900AA0088CF38 /* Supporting Files */,
+			);
+			path = MyPropertyList;
+			sourceTree = "<group>";
+		};
+		6AC0633015C900AA0088CF38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AC0633115C900AA0088CF38 /* MyPropertyList-Info.plist */,
+				6AC0633215C900AA0088CF38 /* InfoPlist.strings */,
+				6AC0634C15C9072B0088CF38 /* MyPropertyList.plist */,
+				6AC0633515C900AA0088CF38 /* main.m */,
+				6AC0633715C900AA0088CF38 /* MyPropertyList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AC0632415C900AA0088CF38 /* MyPropertyList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AC0634315C900AA0088CF38 /* Build configuration list for PBXNativeTarget "MyPropertyList" */;
+			buildPhases = (
+				6AC0632115C900AA0088CF38 /* Sources */,
+				6AC0632215C900AA0088CF38 /* Frameworks */,
+				6AC0632315C900AA0088CF38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPropertyList;
+			productName = MyPropertyList;
+			productReference = 6AC0632515C900AA0088CF38 /* MyPropertyList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AC0631C15C900AA0088CF38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PropertyList;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6AC0631F15C900AA0088CF38 /* Build configuration list for PBXProject "MyPropertyList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AC0631A15C900AA0088CF38;
+			productRefGroup = 6AC0632615C900AA0088CF38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AC0632415C900AA0088CF38 /* MyPropertyList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AC0632315C900AA0088CF38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC0633415C900AA0088CF38 /* InfoPlist.strings in Resources */,
+				6AC0633D15C900AA0088CF38 /* MainStoryboard.storyboard in Resources */,
+				6AC0634D15C9072B0088CF38 /* MyPropertyList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AC0632115C900AA0088CF38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC0633615C900AA0088CF38 /* main.m in Sources */,
+				6AC0633A15C900AA0088CF38 /* PropertyListAppDelegate.m in Sources */,
+				6AC0634015C900AA0088CF38 /* PropertyListViewController.m in Sources */,
+				6AC0634815C905950088CF38 /* RectanglePropertyListViewController.m in Sources */,
+				6AC0635415C923E20088CF38 /* TrianglePropertyListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AC0633215C900AA0088CF38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AC0633315C900AA0088CF38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AC0633B15C900AA0088CF38 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AC0633C15C900AA0088CF38 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AC0634115C900AA0088CF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AC0634215C900AA0088CF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AC0634415C900AA0088CF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPropertyList/MyPropertyList-Prefix.pch";
+				INFOPLIST_FILE = "MyPropertyList/MyPropertyList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AC0634515C900AA0088CF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyPropertyList/MyPropertyList-Prefix.pch";
+				INFOPLIST_FILE = "MyPropertyList/MyPropertyList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AC0631F15C900AA0088CF38 /* Build configuration list for PBXProject "MyPropertyList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC0634115C900AA0088CF38 /* Debug */,
+				6AC0634215C900AA0088CF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC0634315C900AA0088CF38 /* Build configuration list for PBXNativeTarget "MyPropertyList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC0634415C900AA0088CF38 /* Debug */,
+				6AC0634515C900AA0088CF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AC0631C15C900AA0088CF38 /* Project object */;
+}
