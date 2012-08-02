@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'FetchPhotoFromFlickr' target in the 'FetchPhotoFromFlickr' project
+// Prefix header for all source files of the 'FlickrPhoto' target in the 'FlickrPhoto' project
 //
 
 #import <Availability.h>
