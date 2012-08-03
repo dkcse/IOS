@@ -10,7 +10,7 @@
 
 @interface FullScreenImage : UIViewController
 
-@property (strong,nonatomic) NSURL* imageUrl;
+@property (strong,nonatomic) NSURL *imageUrl;
 @property (strong, nonatomic) IBOutlet UIImageView *fullScreenView;
 
 @end

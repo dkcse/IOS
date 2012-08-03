@@ -14,7 +14,7 @@
 @implementation FlickrPhotoViewController
 
 @synthesize imageTableView = _imageTableView;
-@synthesize Titles = _Titles;
+@synthesize Titles         = _Titles;
 @synthesize SmallImageData = _SmallImageData;
 @synthesize URLsLargeImage = _URLsLargeImage;
 
@@ -111,6 +111,12 @@
     FullScreenImage *new = [[FullScreenImage alloc] init];
     new.imageUrl = [self.URLsLargeImage objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:new animated:YES];
+}
+
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return @"FLICKR PHOTO...";
 }
 
 @end

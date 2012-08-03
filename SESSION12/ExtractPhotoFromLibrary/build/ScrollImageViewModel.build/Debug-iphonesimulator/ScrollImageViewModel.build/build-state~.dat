@@ -1,0 +1,284 @@
+TScrollImageViewModel
+v7
+r0
+t365660532.828313
+cCheck dependencies
+cProcessInfoPlistFile "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/Info.plist" ScrollImageViewModel/ScrollImageViewModel-Info.plist
+cProcessPCH /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch.pth ScrollImageViewModel/ScrollImageViewModel-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/main.o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewAppDelegate.o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewViewController.o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCopyStringsFile "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/InfoPlist.strings" ScrollImageViewModel/en.lproj/InfoPlist.strings
+cCpResource build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/MainStoryboard.storyboard ScrollImageViewModel/en.lproj/MainStoryboard.storyboard
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Prefix.pch
+c00000000501258BD0000000000000157
+t1343379645
+s343
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h
+c00000000501258BD000000000000013E
+t1343379645
+s318
+i<UIKit/UIKit.h>
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m
+c00000000501258BD0000000000000829
+t1343379645
+s2089
+i"ScrollViewAppDelegate.h"
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h
+c00000000501260B500000000000001FC
+t1343381685
+s508
+i<UIKit/UIKit.h>
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m
+c0000000050164DD300000000000005A6
+t1343638995
+s1446
+i"ScrollViewViewController.h"
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/en.lproj/InfoPlist.strings
+c00000000501258BD000000000000002D
+t1343379645
+s45
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/en.lproj/MainStoryboard.storyboard
+c00000000501260B50000000000001380
+t1343381685
+s4992
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m
+c00000000501258BD0000000000000179
+t1343379645
+s377
+i<UIKit/UIKit.h>
+i"ScrollViewAppDelegate.h"
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app
+t2
+s0
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app.dSYM
+t2
+s0
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/Info.plist
+t1343967732
+s893
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/PkgInfo
+t1343967732
+s8
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/ScrollImageViewModel
+t2
+s0
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/InfoPlist.strings
+t1343967732
+s42
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/MainStoryboard.storyboard
+t1343967732
+s4992
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollImageViewModel.LinkFileList
+c00000000501B51F4000000000000025F
+t1343967732
+s607
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewAppDelegate.o
+t2
+s0
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewViewController.o
+t2
+s0
+
+N/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch.pth
+t1343967732
+s2776980
+
+NScrollImageViewModel/ScrollImageViewModel-Info.plist
+c00000000501258BD00000000000004D1
+t1343379645
+s1233
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies365660532#365660532#0(0"0(0#1#0"17205838848#0"0#
+
+CCompileC build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewAppDelegate.o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365660532.395707
+e365660532.484968
+r0
+xCompileC
+xbuild/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewAppDelegate.o
+x/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m:9:
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o2 warnings and 1 error generated.
+lSLF07#2@133"Compile /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m365660532#365660532#0(906"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m:9:/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object2 warnings and 1 error generated.3(4@35"Unknown property attribute 'strong'365660532#151#176#2(7@150"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m:9:365660532#0#151#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m365072445#9#0#9#0#0"0(13@164"Unknown property attribute 'strong' in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#12#0#0#0"0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365660532#390#219#2(7@150"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m:9:365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m365072445#9#0#9#0#0"0(13@206"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#0"0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365660532#661#211#2(7@150"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m:9:365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m365072445#9#0#9#0#0"0(13@198"Default property attribute 'assign' not appropriate for non-gc object in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#0"0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(0#0#125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m4527685264#2753"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-generated-files.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-own-target-headers.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-all-target-headers.hmap" -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-project-headers.hmap" "-F/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/include" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources/i386" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources" -include /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch -c "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.m" -o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewAppDelegate.o"1#
+
+CCompileC build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewViewController.o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365660532.396417
+e365660532.485407
+r0
+xCompileC
+xbuild/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewViewController.o
+x/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:15:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UIButton *choosePhotoButton;
+o            ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) IBOutlet UIButton *choosePhotoButton;
+o ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:16:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+o            ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:16:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+o ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:16:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o4 warnings and 2 errors generated.
+lSLF07#2@136"Compile /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365660532#365660532#0(1719"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:15:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UIButton *choosePhotoButton;            ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) IBOutlet UIButton *choosePhotoButton; ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:16:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UIImageView *imageView;            ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:16:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) IBOutlet UIImageView *imageView; ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h:16:1: warning: default property attribute 'assign' not appropriate for non-gc object4 warnings and 2 errors generated.6(4@35"Unknown property attribute 'strong'365660532#154#179#2(7@153"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:365660532#0#154#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365331795#9#0#9#0#0"0(13@167"Unknown property attribute 'strong' in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#15#12#0#0#0"0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#15#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365660532#416#222#2(7@153"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365331795#9#0#9#0#0"0(13@209"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#15#1#0#0#0"0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#15#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365660532#710#214#2(7@153"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365331795#9#0#9#0#0"0(13@201"Default property attribute 'assign' not appropriate for non-gc object in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#15#1#0#0#0"0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#15#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365660532#924#179#2(7@153"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365331795#9#0#9#0#0"0(13@167"Unknown property attribute 'strong' in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#16#12#0#0#0"0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#16#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365660532#1181#222#2(7@153"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365331795#9#0#9#0#0"0(13@209"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#16#1#0#0#0"0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#16#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365660532#1470#214#2(7@153"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m:9:365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m365331795#9#0#9#0#0"0(13@201"Default property attribute 'assign' not appropriate for non-gc object in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365660532#18446744073709551615#0#0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#16#1#0#0#0"0(6@128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.h365074485#16#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(0#0#128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m4527685264#2759"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-generated-files.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-own-target-headers.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-all-target-headers.hmap" -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-project-headers.hmap" "-F/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/include" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources/i386" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources" -include /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch -c "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewViewController.m" -o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/ScrollViewViewController.o"1#
+
+CCompileC build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/main.o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365660532.395011
+e365660532.485245
+r0
+xCompileC
+xbuild/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/main.o
+x/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:11:
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:15:5: error: unexpected '@' in program
+o     @autoreleasepool {
+o     ^
+o2 warnings and 2 errors generated.
+lSLF07#2@116"Compile /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m365660532#365660532#0(1070"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:11:/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:15:5: error: unexpected '@' in program     @autoreleasepool {     ^2 warnings and 2 errors generated.4(4@35"Unknown property attribute 'strong'365660532#135#176#2(7@134"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:11:365660532#0#135#0(6@108"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m365072445#11#0#11#0#0"0(13@164"Unknown property attribute 'strong' in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#12#0#0#0"0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365660532#374#219#2(7@134"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:11:365660532#18446744073709551615#0#0(6@108"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m365072445#11#0#11#0#0"0(13@206"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#0"0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365660532#645#211#2(7@134"In file included from /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m:11:365660532#18446744073709551615#0#0(6@108"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m365072445#11#0#11#0#0"0(13@198"Default property attribute 'assign' not appropriate for non-gc object in /Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365660532#18446744073709551615#0#0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#0"0(6@125"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollViewAppDelegate.h365072445#13#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@25"Unexpected '@' in program365660532#856#148#0(6@108"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m365072445#15#5#0#0#25"unexpected '@' in program0(0#0#108"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m4527685264#2719"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-generated-files.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-own-target-headers.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-all-target-headers.hmap" -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-project-headers.hmap" "-F/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/include" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources/i386" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources" -include /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch -c "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/main.m" -o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/Objects-normal/i386/main.o"1#
+
+CCopyStringsFile "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/InfoPlist.strings" ScrollImageViewModel/en.lproj/InfoPlist.strings
+s365660532.485457
+e365660532.828159
+r1
+xCopyStringsFile
+x/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/InfoPlist.strings
+xScrollImageViewModel/en.lproj/InfoPlist.strings
+lSLF07#2@52"Copy ScrollImageViewModel/en.lproj/InfoPlist.strings365660532#365660532#0(0"0(0#0#128"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/en.lproj/InfoPlist.strings4527685264#605"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary ScrollImageViewModel/en.lproj/InfoPlist.strings --outdir "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj"0#
+
+CCpResource build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/MainStoryboard.storyboard ScrollImageViewModel/en.lproj/MainStoryboard.storyboard
+s365660532.486028
+e365660532.566889
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj/MainStoryboard.storyboard
+xScrollImageViewModel/en.lproj/MainStoryboard.storyboard
+lSLF07#2@60"Copy ScrollImageViewModel/en.lproj/MainStoryboard.storyboard365660532#365660532#0(0"0(0#0#136"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/en.lproj/MainStoryboard.storyboard4527685264#667"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/en.lproj/MainStoryboard.storyboard" "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/en.lproj"0#
+
+CGenerateDSYMFile "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app.dSYM" "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/ScrollImageViewModel"
+r0
+
+CLd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/ScrollImageViewModel" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/Info.plist" ScrollImageViewModel/ScrollImageViewModel-Info.plist
+s365660532.084262
+e365660532.115064
+r1
+xProcessInfoPlistFile
+x/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/Info.plist
+xScrollImageViewModel/ScrollImageViewModel-Info.plist
+lSLF07#2@60"Process ScrollImageViewModel/ScrollImageViewModel-Info.plist365660532#365660532#0(0"0(0#0#133"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Info.plist17244696832#671"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ScrollImageViewModel/ScrollImageViewModel-Info.plist -genpkginfo "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app/Info.plist"0#
+
+CProcessPCH /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch.pth ScrollImageViewModel/ScrollImageViewModel-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365660532.115164
+e365660532.394850
+r1
+xProcessPCH
+x/var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch.pth
+xScrollImageViewModel/ScrollImageViewModel-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Prefix.pch:8:2: warning: #warning "This project uses features only available in iOS SDK 5.0 and later." [-W#warnings]
+o #warning "This project uses features only available in iOS SDK 5.0 and later."
+o  ^
+o1 warning generated.
+lSLF07#2@63"Precompile ScrollImageViewModel/ScrollImageViewModel-Prefix.pch365660532#365660532#0(346"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Prefix.pch:8:2: warning: #warning "This project uses features only available in iOS SDK 5.0 and later." [-W#warnings] #warning "This project uses features only available in iOS SDK 5.0 and later."  ^1 warning generated.1(22@78"#warning "This project uses features only available in iOS SDK 5.0 and later."365660532#0#241#0(6@133"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Prefix.pch365072445#8#2#0#0#10"#warning *0(0#0#133"/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Prefix.pch4527685264#2554"    cd "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-generated-files.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-own-target-headers.hmap" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-all-target-headers.hmap" -iquote "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/ScrollImageViewModel-project-headers.hmap" "-F/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/include" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources/i386" "-I/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/ScrollImageViewModel.build/Debug-iphonesimulator/ScrollImageViewModel.build/DerivedSources" -c "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/ScrollImageViewModel/ScrollImageViewModel-Prefix.pch" -o /var/folders/kj/yjr7gz350cs6jbhlrcsx1lmh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/ScrollImageViewModel-Prefix-ddthkksibsanllhdbvalcqxtcgmx/ScrollImageViewModel-Prefix.pch.pth0#
+
+CTouch "/Users/deepakkumar/Sourcebits/IOS/IOS Training/SESSION12/ExtractPhotoFromLibrary/build/Debug-iphonesimulator/ScrollImageViewModel.app"
+r0
+

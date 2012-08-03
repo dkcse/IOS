@@ -30,7 +30,7 @@
 	
 	self.myNewView = [[myNewView alloc]initWithFrame:myRect];
 	
-	self.myNewView.myLayer.delegate = self;
+	self.myNewView.myLayer.delegate = self;     
 	
 	self.myNewView.customLayer.delegate = self;
 	
@@ -159,17 +159,5 @@
 	[self.myNewView scaleLayer];
 }
  
-//- (void)drawLayer:(CALayer *)layer inContext:(CGContextRef)contextRef
-//{	
-//	CGContextSetStrokeColorWithColor(contextRef, [UIColor whiteColor].CGColor);
-//	CGContextSetFillColorWithColor(contextRef, [UIColor redColor].CGColor);
-//	CGContextBeginPath(contextRef);
-//	CGContextMoveToPoint(contextRef, 80, 10);
-//	CGContextAddLineToPoint(contextRef, 150, 150);
-//	CGContextAddLineToPoint(contextRef, 10, 150);
-//	CGContextClosePath(contextRef);
-//	
-//	CGContextDrawPath(contextRef, kCGPathFillStroke);
-//}
 
 @end
