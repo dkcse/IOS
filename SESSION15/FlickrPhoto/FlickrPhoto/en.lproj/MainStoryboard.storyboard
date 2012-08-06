@@ -19,7 +19,7 @@
                     <navigationItem key="navigationItem" id="yOQ-54-bTR"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="526" y="68"/>
+            <point key="canvasLocation" x="608" y="55"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EX2-op-TCv">
@@ -37,7 +37,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="76" y="68"/>
+            <point key="canvasLocation" x="166" y="50"/>
         </scene>
     </scenes>
     <classes>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4C1B1515CFD06F00646EAF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4C1B1715CFD06F00646EAF /* Localizable.strings */; };
 		6ABB1BF915CA406B00A2D645 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABB1BF815CA406B00A2D645 /* UIKit.framework */; };
 		6ABB1BFB15CA406B00A2D645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABB1BFA15CA406B00A2D645 /* Foundation.framework */; };
 		6ABB1BFD15CA406B00A2D645 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABB1BFC15CA406B00A2D645 /* CoreGraphics.framework */; };
@@ -21,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A4C1B1615CFD06F00646EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A4C1B1815CFD07B00646EAF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A4C1B1915CFD39900646EAF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6ABB1BF415CA406B00A2D645 /* FlickrPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABB1BF815CA406B00A2D645 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6ABB1BFA15CA406B00A2D645 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +109,7 @@
 			children = (
 				6ABB1C0015CA406B00A2D645 /* FlickrPhoto-Info.plist */,
 				6ABB1C0115CA406B00A2D645 /* InfoPlist.strings */,
+				6A4C1B1715CFD06F00646EAF /* Localizable.strings */,
 				6ABB1C0415CA406B00A2D645 /* main.m */,
 				6ABB1C0615CA406B00A2D645 /* FlickrPhoto-Prefix.pch */,
 			);
@@ -146,6 +151,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
+				es,
 			);
 			mainGroup = 6ABB1BE915CA406B00A2D645;
 			productRefGroup = 6ABB1BF515CA406B00A2D645 /* Products */;
@@ -165,6 +172,7 @@
 				6ABB1C0315CA406B00A2D645 /* InfoPlist.strings in Resources */,
 				6ABB1C0C15CA406B00A2D645 /* MainStoryboard.storyboard in Resources */,
 				6ABB1C1D15CA40DF00A2D645 /* FullScreenImage.xib in Resources */,
+				6A4C1B1515CFD06F00646EAF /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +194,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6A4C1B1715CFD06F00646EAF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4C1B1615CFD06F00646EAF /* en */,
+				6A4C1B1815CFD07B00646EAF /* fr */,
+				6A4C1B1915CFD39900646EAF /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		6ABB1C0115CA406B00A2D645 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,6 +309,7 @@
 				6ABB1C1415CA406B00A2D645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

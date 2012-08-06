@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  FlickrPhoto
+
+  Created by Deepak Kumar on 06/08/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+
+"title" =  "FlickrImageInEnglish";
+"wait" = "English Language";
+"waitmessage" = "Downloading Images with English Titles";

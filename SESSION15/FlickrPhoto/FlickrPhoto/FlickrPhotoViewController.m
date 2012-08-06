@@ -27,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     mQueue = [[NSOperationQueue alloc] init];
     FlickrOperation *operation = [[FlickrOperation alloc]init];
     operation.delegate = self;
@@ -36,9 +37,13 @@
     self.imageTableView.delegate = self; 
     self.imageTableView.dataSource = self; 
     self.imageTableView.rowHeight = 80;
+    self.navigationItem.title = NSLocalizedString(@"title", @"Title in different languages");
     self.imageTableView.backgroundColor = [UIColor underPageBackgroundColor];
     self.imageTableView.separatorStyle =  UITableViewCellSeparatorStyleSingleLineEtched;
     [self.view addSubview:self.imageTableView];
+    
+    [[[UIAlertView alloc]initWithTitle:NSLocalizedString(@"wait", @"wait") message:NSLocalizedString(@"waitmessage", @"downloading....") delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil]show];
+
    	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -82,7 +87,9 @@
     self.SmallImageData = smallImageData;
     self.URLsLargeImage = largeImageData;
     [self.imageTableView reloadData];
+    
 }
+
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection: (NSInteger)section 
