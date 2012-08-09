@@ -18,7 +18,7 @@
 @synthesize faceView= _faceView;
 @synthesize happiness = _happiness;
 
-- (void) setHappiness:(int)happiness
+- (void)setHappiness:(int)happiness
 {
     _happiness = happiness;
     [self.faceView setNeedsDisplay];

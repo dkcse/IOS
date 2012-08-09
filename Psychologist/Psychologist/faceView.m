@@ -117,7 +117,6 @@
     CGPoint mouthCP2 = mouthEnd;
     mouthCP2.x -= MOUTH_H * size *2/3;
     
-    
     float smile = [self.dataSource smileForFaceView:self];
     if(smile < -1) smile = -1;
     if(smile >1) smile = 1;
