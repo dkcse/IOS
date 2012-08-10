@@ -7,7 +7,7 @@
 //
 
 #import "twitAppDelegate.h"
-#import "MainPage.h"
+
 
 @implementation twitAppDelegate
 

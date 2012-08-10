@@ -1,59 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cam-fX-s10">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="han-Fh-qhu">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
     </dependencies>
     <scenes>
-        <!--Main Page - HomePage-->
-        <scene sceneID="JeP-L9-ddo">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5lL-w9-1fV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="CoN-Vd-U6C" customClass="MainPage" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Zbp-I5-k13">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eXU-ST-QYv">
-                                <rect key="frame" x="16" y="79" width="288" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Press To Send The Tweet">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="sendTweet:" destination="CoN-Vd-U6C" eventType="touchUpInside" id="5qK-nr-GSd"/>
-                                    <segue destination="2" kind="push" id="jaj-cQ-nv1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uZt-Xt-ZON">
-                                <rect key="frame" x="16" y="235" width="288" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Press to See All Tweets in TableView">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="aod-F2-Fc3" kind="push" identifier="tableViewSegue" id="wuM-5y-GFa"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="HomePage" id="GUH-fB-QlR"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="303" y="353"/>
-        </scene>
         <!--Tweet Table View Controller-->
         <scene sceneID="pVZ-fy-Ndl">
             <objects>
@@ -64,11 +16,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Tweet Cell" textLabel="VEZ-j5-W6a" detailTextLabel="kWa-ej-JEN" imageView="ccs-Fj-ygJ" style="IBUITableViewCellStyleSubtitle" id="M6U-Aj-Kvf">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Tweet Cell" editingAccessoryType="detailDisclosureButton" textLabel="VEZ-j5-W6a" detailTextLabel="w8c-wq-zki" imageView="igu-Tx-6qv" style="IBUITableViewCellStyleSubtitle" id="M6U-Aj-Kvf">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VEZ-j5-W6a">
@@ -78,20 +30,23 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="user.png" id="ccs-Fj-ygJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kWa-ej-JEN">
-                                            <rect key="frame" x="53" y="24" width="36" height="18"/>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w8c-wq-zki">
+                                            <rect key="frame" x="53" y="24" width="47" height="18"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="user.png" id="igu-Tx-6qv">
+                                            <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <segue destination="WTV-Cj-mVO" kind="push" identifier="pushToDescription" id="Z3U-5C-bah"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -99,10 +54,72 @@
                             <outlet property="delegate" destination="aod-F2-Fc3" id="zcW-bY-APO"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Mts-TU-hTR"/>
+                    <navigationItem key="navigationItem" id="Mts-TU-hTR">
+                        <barButtonItem key="leftBarButtonItem" title="Refresh" id="gzs-9L-pf8">
+                            <connections>
+                                <action selector="refreshTable:" destination="aod-F2-Fc3" id="smv-Hg-72V"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Tweet" id="6c5-7s-aew">
+                            <connections>
+                                <segue destination="2" kind="push" id="T2x-mi-FUh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myTableView" destination="qxH-Uq-a22" id="H7J-es-2P2"/>
+                    </connections>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="849" y="687"/>
+            <point key="canvasLocation" x="1178" y="545"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="U0J-Z4-zdH">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vcb-0g-z1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="WTV-Cj-mVO" customClass="DetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m9c-Xp-4al">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="zFs-f9-5K8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="7qG-u6-KrZ">
+                                        <rect key="frame" x="20" y="57" width="100" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="25k-p6-UAW">
+                                        <rect key="frame" x="133" y="81" width="167" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="bFx-49-lme">
+                                        <rect key="frame" x="20" y="186" width="280" height="222"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FMe-n0-SJp"/>
+                    <connections>
+                        <outlet property="userImage" destination="7qG-u6-KrZ" id="EbT-1N-b9U"/>
+                        <outlet property="userName" destination="25k-p6-UAW" id="bti-bE-YSw"/>
+                        <outlet property="userText" destination="bFx-49-lme" id="0Ng-6i-NfQ"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1758" y="695"/>
         </scene>
         <!--Twit View Controller - Tweet-->
         <scene sceneID="5">
@@ -122,13 +139,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hi, write Tweet Message" minimumFontSize="17" id="AQ6-13-uch">
-                                <rect key="frame" x="20" y="115" width="280" height="31"/>
+                                <rect key="frame" x="20" y="101" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="http://twitter.com/dk1609" minimumFontSize="17" id="DJv-VH-j3A">
-                                <rect key="frame" x="20" y="192" width="280" height="31"/>
+                                <rect key="frame" x="20" y="169" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="done"/>
@@ -137,14 +154,14 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Message : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="RS3-bX-edU">
-                                <rect key="frame" x="20" y="86" width="87" height="21"/>
+                                <rect key="frame" x="20" y="72" width="87" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Attach URL : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="GV2-qA-ItH">
-                                <rect key="frame" x="20" y="163" width="87" height="21"/>
+                                <rect key="frame" x="20" y="140" width="87" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -175,51 +192,30 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1191" y="111"/>
+            <point key="canvasLocation" x="1717" y="111"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="BvU-bn-J7I">
+        <scene sceneID="IWn-Gy-4oe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LJS-Be-4lq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController id="cam-fX-s10" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="siF-sA-rY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="han-Fh-qhu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8OQ-T7-boc">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="VKT-RY-hB1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="CoN-Vd-U6C" kind="relationship" relationship="rootViewController" id="AZD-PS-YYr"/>
+                        <segue destination="aod-F2-Fc3" kind="relationship" relationship="rootViewController" id="d8V-Op-6nl"/>
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-319" y="181"/>
+            <point key="canvasLocation" x="778" y="545"/>
         </scene>
     </scenes>
     <resources>
         <image name="user.png" width="512" height="512"/>
     </resources>
-    <classes>
-        <class className="MainPage" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainPage.h"/>
-            <relationships>
-                <relationship kind="action" name="sendTweet:"/>
-                <relationship kind="action" name="tweetsInTableView:"/>
-            </relationships>
-        </class>
-        <class className="TweetTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TweetTableViewController.h"/>
-        </class>
-        <class className="twitViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/twitViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="closeKeyboard"/>
-                <relationship kind="action" name="tweetMessage"/>
-                <relationship kind="outlet" name="message" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="website" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -17,9 +17,9 @@
 		6AD00BB515D2227800D68F2E /* twitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD00BB415D2227800D68F2E /* twitViewController.m */; };
 		6AD00BBC15D222FA00D68F2E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD00BBB15D222FA00D68F2E /* Twitter.framework */; };
 		6AD00BBE15D2544800D68F2E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD00BBD15D2544800D68F2E /* Accounts.framework */; };
-		6AD00BCA15D25B9300D68F2E /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD00BC915D25B9300D68F2E /* MainPage.m */; };
 		6ADA5EAE15D3705900ED25CC /* TweetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA5EAD15D3705900ED25CC /* TweetTableViewController.m */; };
 		6ADA5EB315D3847E00ED25CC /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA5EB215D3847E00ED25CC /* user.png */; };
+		6ADA5F5D15D3AB9900ED25CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA5F5C15D3AB9900ED25CC /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,11 +38,11 @@
 		6AD00BB415D2227800D68F2E /* twitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitViewController.m; sourceTree = "<group>"; };
 		6AD00BBB15D222FA00D68F2E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		6AD00BBD15D2544800D68F2E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		6AD00BC815D25B9300D68F2E /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
-		6AD00BC915D25B9300D68F2E /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
 		6ADA5EAC15D3705800ED25CC /* TweetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetTableViewController.h; sourceTree = "<group>"; };
 		6ADA5EAD15D3705900ED25CC /* TweetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetTableViewController.m; sourceTree = "<group>"; };
 		6ADA5EB215D3847E00ED25CC /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		6ADA5F5B15D3AB9900ED25CC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6ADA5F5C15D3AB9900ED25CC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +95,13 @@
 			children = (
 				6AD00BAD15D2227800D68F2E /* twitAppDelegate.h */,
 				6AD00BAE15D2227800D68F2E /* twitAppDelegate.m */,
-				6AD00BC815D25B9300D68F2E /* MainPage.h */,
-				6AD00BC915D25B9300D68F2E /* MainPage.m */,
 				6AD00BB015D2227800D68F2E /* MainStoryboard.storyboard */,
-				6AD00BB315D2227800D68F2E /* twitViewController.h */,
-				6AD00BB415D2227800D68F2E /* twitViewController.m */,
 				6ADA5EAC15D3705800ED25CC /* TweetTableViewController.h */,
 				6ADA5EAD15D3705900ED25CC /* TweetTableViewController.m */,
+				6AD00BB315D2227800D68F2E /* twitViewController.h */,
+				6AD00BB415D2227800D68F2E /* twitViewController.m */,
+				6ADA5F5B15D3AB9900ED25CC /* DetailViewController.h */,
+				6ADA5F5C15D3AB9900ED25CC /* DetailViewController.m */,
 				6AD00BA515D2227800D68F2E /* Supporting Files */,
 			);
 			path = TwitterApp;
@@ -186,8 +186,8 @@
 				6AD00BAB15D2227800D68F2E /* main.m in Sources */,
 				6AD00BAF15D2227800D68F2E /* twitAppDelegate.m in Sources */,
 				6AD00BB515D2227800D68F2E /* twitViewController.m in Sources */,
-				6AD00BCA15D25B9300D68F2E /* MainPage.m in Sources */,
 				6ADA5EAE15D3705900ED25CC /* TweetTableViewController.m in Sources */,
+				6ADA5F5D15D3AB9900ED25CC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
