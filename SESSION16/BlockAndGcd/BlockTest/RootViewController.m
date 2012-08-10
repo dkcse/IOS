@@ -11,7 +11,7 @@
 
 @implementation RootViewController
 
-@synthesize plistData = plistData_;
+@synthesize plistData = _plistData;
 
 - (void)viewDidLoad
 {
