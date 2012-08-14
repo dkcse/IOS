@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'TwitterApp' target in the 'TwitterApp' project
+// Prefix header for all source files of the 'CoreData' target in the 'CoreData' project
 //
 
 #import <Availability.h>
@@ -11,5 +11,5 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #include <CoreData/CoreData.h>
+    #import <CoreData/CoreData.h>
 #endif

@@ -68,6 +68,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="myTableView" destination="qxH-Uq-a22" id="H7J-es-2P2"/>
+                        <outlet property="refreshButton" destination="gzs-9L-pf8" id="maW-HU-9kO"/>
                     </connections>
                 </tableViewController>
             </objects>
@@ -98,13 +99,28 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="bFx-49-lme">
-                                        <rect key="frame" x="20" y="186" width="280" height="222"/>
+                                        <rect key="frame" x="20" y="187" width="280" height="137"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                     </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PBk-Kz-A7s">
+                                        <rect key="frame" x="19" y="359" width="75" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="REPLY">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="replyToTweet:" destination="WTV-Cj-mVO" eventType="touchUpInside" id="jHM-hD-H3l"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -119,7 +135,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1758" y="695"/>
+            <point key="canvasLocation" x="1658" y="680"/>
         </scene>
         <!--Twit View Controller - Tweet-->
         <scene sceneID="5">

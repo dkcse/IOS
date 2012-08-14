@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A2268C815D51BCD0018C619 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A2268C615D51BCD0018C619 /* CoreData.xcdatamodeld */; };
+		6A2268FE15D51D440018C619 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2268FD15D51D440018C619 /* CoreData.framework */; };
+		6ACB656715DA09F5000D5BF6 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB656615DA09F5000D5BF6 /* Tweet.m */; };
+		6ACB656B15DA0A03000D5BF6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB656A15DA0A03000D5BF6 /* User.m */; };
 		6AD00B9F15D2227800D68F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD00B9E15D2227800D68F2E /* UIKit.framework */; };
 		6AD00BA115D2227800D68F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD00BA015D2227800D68F2E /* Foundation.framework */; };
 		6AD00BA315D2227800D68F2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD00BA215D2227800D68F2E /* CoreGraphics.framework */; };
@@ -23,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A2268C715D51BCD0018C619 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		6A2268FD15D51D440018C619 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6ACB654515D8C3A4000D5BF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
+		6ACB656515DA09F5000D5BF6 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		6ACB656615DA09F5000D5BF6 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		6ACB656915DA0A03000D5BF6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6ACB656A15DA0A03000D5BF6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		6AD00B9A15D2227800D68F2E /* TwitterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD00B9E15D2227800D68F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6AD00BA015D2227800D68F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2268FE15D51D440018C619 /* CoreData.framework in Frameworks */,
 				6AD00BBE15D2544800D68F2E /* Accounts.framework in Frameworks */,
 				6AD00BBC15D222FA00D68F2E /* Twitter.framework in Frameworks */,
 				6AD00B9F15D2227800D68F2E /* UIKit.framework in Frameworks */,
@@ -64,8 +76,6 @@
 		6AD00B8F15D2227800D68F2E = {
 			isa = PBXGroup;
 			children = (
-				6AD00BBD15D2544800D68F2E /* Accounts.framework */,
-				6AD00BBB15D222FA00D68F2E /* Twitter.framework */,
 				6AD00BA415D2227800D68F2E /* TwitterApp */,
 				6AD00B9D15D2227800D68F2E /* Frameworks */,
 				6AD00B9B15D2227800D68F2E /* Products */,
@@ -83,6 +93,10 @@
 		6AD00B9D15D2227800D68F2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6ACB654515D8C3A4000D5BF6 /* SystemConfiguration.framework */,
+				6A2268FD15D51D440018C619 /* CoreData.framework */,
+				6AD00BBD15D2544800D68F2E /* Accounts.framework */,
+				6AD00BBB15D222FA00D68F2E /* Twitter.framework */,
 				6AD00B9E15D2227800D68F2E /* UIKit.framework */,
 				6AD00BA015D2227800D68F2E /* Foundation.framework */,
 				6AD00BA215D2227800D68F2E /* CoreGraphics.framework */,
@@ -102,6 +116,11 @@
 				6AD00BB415D2227800D68F2E /* twitViewController.m */,
 				6ADA5F5B15D3AB9900ED25CC /* DetailViewController.h */,
 				6ADA5F5C15D3AB9900ED25CC /* DetailViewController.m */,
+				6A2268C615D51BCD0018C619 /* CoreData.xcdatamodeld */,
+				6ACB656915DA0A03000D5BF6 /* User.h */,
+				6ACB656A15DA0A03000D5BF6 /* User.m */,
+				6ACB656515DA09F5000D5BF6 /* Tweet.h */,
+				6ACB656615DA09F5000D5BF6 /* Tweet.m */,
 				6AD00BA515D2227800D68F2E /* Supporting Files */,
 			);
 			path = TwitterApp;
@@ -188,6 +207,9 @@
 				6AD00BB515D2227800D68F2E /* twitViewController.m in Sources */,
 				6ADA5EAE15D3705900ED25CC /* TweetTableViewController.m in Sources */,
 				6ADA5F5D15D3AB9900ED25CC /* DetailViewController.m in Sources */,
+				6A2268C815D51BCD0018C619 /* CoreData.xcdatamodeld in Sources */,
+				6ACB656715DA09F5000D5BF6 /* Tweet.m in Sources */,
+				6ACB656B15DA0A03000D5BF6 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +283,10 @@
 		6AD00BB915D2227800D68F2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterApp/TwitterApp-Prefix.pch";
 				INFOPLIST_FILE = "TwitterApp/TwitterApp-Info.plist";
@@ -272,6 +298,10 @@
 		6AD00BBA15D2227800D68F2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterApp/TwitterApp-Prefix.pch";
 				INFOPLIST_FILE = "TwitterApp/TwitterApp-Info.plist";
@@ -302,6 +332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A2268C615D51BCD0018C619 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A2268C715D51BCD0018C619 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 6A2268C715D51BCD0018C619 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6AD00B9115D2227800D68F2E /* Project object */;
 }

@@ -12,28 +12,22 @@
 #import "Accounts/ACAccountStore.h"
 #import "Accounts/AccountsDefines.h"
 #import "Twitter/Twitter.h"
-
+#import "twitAppDelegate.h"
 
 @interface TweetTableViewController : UITableViewController 
 
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
+@property (strong,nonatomic) UIActivityIndicatorView *activitySpinner;
 @property (strong,nonatomic) ACAccountStore *acAccountStore;
 @property (strong,nonatomic) ACAccount *acAccount;
-
-@property NSIndexPath* myIndexPath;
 @property (strong,nonatomic) NSURL *imageURL;
 @property (strong,nonatomic) NSData *imageData;
+@property (strong,nonatomic) NSArray *tweetArrayOfDict;
+@property (nonatomic) BOOL reachability;
+@property NSIndexPath* myIndexPath;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *refreshButton;
 
 - (IBAction)refreshTable:(id)sender;
-
-//changed property
-
-
-@property (strong,nonatomic) NSMutableArray *tweetArrayOfDict;
-//@property (strong,nonatomic) NSDictionary *tweetDictionary;
-
-//- (IBAction)sendTweet:(id)sender;
 - (void)fetchTweet;
-
 
 @end

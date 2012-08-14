@@ -17,23 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   // UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] init];
-    //leftButton.title = @"Left button";
-    //self.navigationItem.leftBarButtonItem = leftButton;
-    //self.navigationItem.leftBarButtonItem.action = @selector(backToRootView);
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
-
-/*-(void) backToRootView
-{
-    [self.navigationController popViewControllerAnimated:YES];
-}*/
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -45,19 +34,25 @@
     TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc]init];
     [twitter setInitialText:message.text];
     [twitter addURL:[NSURL URLWithString:website.text]];
-    if ([TWTweetComposeViewController canSendTweet] ) {
+    if ([TWTweetComposeViewController canSendTweet] ) 
+    {
         [self presentViewController:twitter animated:YES completion:nil ];
-        
-    }else {
+    }
+    else 
+    {
         UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Unable to tweet" message:@"This only works with Twitter configured iOS 5" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles: nil];
         [alertView show];
         return;
     }
-    twitter.completionHandler = ^(TWTweetComposeViewControllerResult res) {
-        if(res == TWTweetComposeViewControllerResultDone) {
+    twitter.completionHandler = ^(TWTweetComposeViewControllerResult res) 
+    {
+        if(res == TWTweetComposeViewControllerResultDone) 
+        {
             UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Tweeet Succeeded" message:@"Message Sent Successfully" delegate:self cancelButtonTitle:@"Close" otherButtonTitles: nil];
             [alertView show];
-        }else {
+        }
+        else
+        {
             UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Tweet Failed" message:@"Message sending Failed, Try again Later..." delegate:self cancelButtonTitle:@"Close" otherButtonTitles: nil];
             [alertView show];
         }
