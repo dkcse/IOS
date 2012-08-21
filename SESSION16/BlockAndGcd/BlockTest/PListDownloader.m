@@ -13,19 +13,23 @@
 - (id)init
 {
     self = [super init];
-    if (self) {
+    if (self)
+    {
         // Initialization code here.
     }
-    
     return self;
 }
 
-- (void) downloadPlistForURL:(NSURL *) url completionBlock:(void (^)(NSArray *data, NSError *error)) block {
+- (void) downloadPlistForURL:(NSURL *) url completionBlock:(void (^)(NSArray *data, NSError *error)) block
+{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul), ^{
         NSArray *returnArray = [NSArray arrayWithContentsOfURL:url];
-        if(returnArray) {
+        if(returnArray) 
+        {
             block(returnArray, nil);
-        } else {
+        } 
+        else 
+        {
             NSError *error = [NSError errorWithDomain:@"plist_download_error" code:1 
                                              userInfo:[NSDictionary dictionaryWithObject:@"Can't fetch data" forKey:NSLocalizedDescriptionKey]];
             block(nil, error);

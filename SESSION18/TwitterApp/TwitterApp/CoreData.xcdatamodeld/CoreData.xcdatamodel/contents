@@ -13,6 +13,6 @@
     </entity>
     <elements>
         <element name="Tweet" positionX="-3906" positionY="-336" width="128" height="75"/>
-        <element name="User" positionX="-3285" positionY="-144" width="128" height="75"/>
+        <element name="User" positionX="-4473" positionY="-414" width="128" height="75"/>
     </elements>
 </model>

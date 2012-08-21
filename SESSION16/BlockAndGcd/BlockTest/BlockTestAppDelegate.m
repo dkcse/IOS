@@ -1,5 +1,5 @@
 //
-//  BlockTestAppDelegate.m
+//  PListDownloader.m
 //  BlockTest
 //
 //  Created by Deepak Kumar on 09/08/12.
@@ -59,13 +59,6 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
-}
-
-- (void)dealloc
-{
-    [_window release];
-    [_navigationController release];
-    [super dealloc];
 }
 
 @end

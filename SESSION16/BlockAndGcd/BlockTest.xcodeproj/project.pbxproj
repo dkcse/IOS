@@ -15,6 +15,7 @@
 		C7CE3536140ED32A000BA670 /* BlockTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE3535140ED32A000BA670 /* BlockTestAppDelegate.m */; };
 		C7CE3539140ED32A000BA670 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CE3537140ED32A000BA670 /* MainWindow.xib */; };
 		C7CE353C140ED32A000BA670 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE353B140ED32A000BA670 /* RootViewController.m */; };
+		C7CE353F140ED32A000BA670 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CE353D140ED32A000BA670 /* RootViewController.xib */; };
 		C7CE3547140ED349000BA670 /* PListDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE3546140ED349000BA670 /* PListDownloader.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		C7CE3538140ED32A000BA670 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		C7CE353A140ED32A000BA670 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		C7CE353B140ED32A000BA670 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C7CE353E140ED32A000BA670 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		C7CE3545140ED349000BA670 /* PListDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListDownloader.h; sourceTree = "<group>"; };
 		C7CE3546140ED349000BA670 /* PListDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PListDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				C7CE3537140ED32A000BA670 /* MainWindow.xib */,
 				C7CE353A140ED32A000BA670 /* RootViewController.h */,
 				C7CE353B140ED32A000BA670 /* RootViewController.m */,
+				C7CE353D140ED32A000BA670 /* RootViewController.xib */,
 				C7CE3545140ED349000BA670 /* PListDownloader.h */,
 				C7CE3546140ED349000BA670 /* PListDownloader.m */,
 				C7CE352C140ED32A000BA670 /* Supporting Files */,
@@ -155,6 +158,7 @@
 			files = (
 				C7CE3530140ED32A000BA670 /* InfoPlist.strings in Resources */,
 				C7CE3539140ED32A000BA670 /* MainWindow.xib in Resources */,
+				C7CE353F140ED32A000BA670 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +193,14 @@
 				C7CE3538140ED32A000BA670 /* en */,
 			);
 			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C7CE353D140ED32A000BA670 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CE353E140ED32A000BA670 /* en */,
+			);
+			name = RootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
