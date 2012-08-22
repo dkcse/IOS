@@ -20,7 +20,6 @@
         _name = [name copy];
         _address = [address copy];
         _coordinate = coordinate;
-        
     }
     return self;
 }

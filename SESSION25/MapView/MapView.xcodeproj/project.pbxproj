@@ -16,9 +16,10 @@
 		6A9B180615E38B9800F56F67 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B180415E38B9800F56F67 /* MainStoryboard.storyboard */; };
 		6A9B180915E38B9800F56F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B180815E38B9800F56F67 /* ViewController.m */; };
 		6A9B181915E38C6100F56F67 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B181815E38C6100F56F67 /* Annotation.m */; };
-		6A9B181D15E38C8500F56F67 /* ViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B181C15E38C8500F56F67 /* ViewAnnotation.m */; };
 		6A9B181F15E38CEB00F56F67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9B181E15E38CEB00F56F67 /* MapKit.framework */; };
 		6A9B182115E38CF700F56F67 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9B182015E38CF700F56F67 /* CoreLocation.framework */; };
+		6AE83D8D15E4B48600415722 /* Open.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE83D8C15E4B48600415722 /* Open.jpg */; };
+		6AE83D9515E4D40500415722 /* viewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE83D9415E4D40500415722 /* viewAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +38,11 @@
 		6A9B180815E38B9800F56F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A9B181715E38C6100F56F67 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		6A9B181815E38C6100F56F67 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
-		6A9B181B15E38C8500F56F67 /* ViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnnotation.h; sourceTree = "<group>"; };
-		6A9B181C15E38C8500F56F67 /* ViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAnnotation.m; sourceTree = "<group>"; };
 		6A9B181E15E38CEB00F56F67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6A9B182015E38CF700F56F67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6AE83D8C15E4B48600415722 /* Open.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Open.jpg; sourceTree = "<group>"; };
+		6AE83D9315E4D40500415722 /* viewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewAnnotation.h; sourceTree = "<group>"; };
+		6AE83D9415E4D40500415722 /* viewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,8 @@
 				6A9B180815E38B9800F56F67 /* ViewController.m */,
 				6A9B181715E38C6100F56F67 /* Annotation.h */,
 				6A9B181815E38C6100F56F67 /* Annotation.m */,
-				6A9B181B15E38C8500F56F67 /* ViewAnnotation.h */,
-				6A9B181C15E38C8500F56F67 /* ViewAnnotation.m */,
+				6AE83D9315E4D40500415722 /* viewAnnotation.h */,
+				6AE83D9415E4D40500415722 /* viewAnnotation.m */,
 				6A9B17F915E38B9800F56F67 /* Supporting Files */,
 			);
 			path = MapView;
@@ -111,6 +113,7 @@
 				6A9B17FA15E38B9800F56F67 /* MapView-Info.plist */,
 				6A9B17FB15E38B9800F56F67 /* InfoPlist.strings */,
 				6A9B17FE15E38B9800F56F67 /* main.m */,
+				6AE83D8C15E4B48600415722 /* Open.jpg */,
 				6A9B180015E38B9800F56F67 /* MapView-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -168,6 +171,7 @@
 			files = (
 				6A9B17FD15E38B9800F56F67 /* InfoPlist.strings in Resources */,
 				6A9B180615E38B9800F56F67 /* MainStoryboard.storyboard in Resources */,
+				6AE83D8D15E4B48600415722 /* Open.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +186,7 @@
 				6A9B180315E38B9800F56F67 /* AppDelegate.m in Sources */,
 				6A9B180915E38B9800F56F67 /* ViewController.m in Sources */,
 				6A9B181915E38C6100F56F67 /* Annotation.m in Sources */,
-				6A9B181D15E38C8500F56F67 /* ViewAnnotation.m in Sources */,
+				6AE83D9515E4D40500415722 /* viewAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

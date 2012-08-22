@@ -22,7 +22,6 @@
 @property (copy) NSString *address;
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 
-
 - (id)initWithName:(NSString*)name address:(NSString*)address coordinate:(CLLocationCoordinate2D)coordinate;
 
 @end
