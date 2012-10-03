@@ -33,7 +33,6 @@
     [self.locationManager setDistanceFilter:kCLDistanceFilterNone];
     [self.locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
     _internetConnection = YES;
-        
 }
 
 - (void)viewDidUnload

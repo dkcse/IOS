@@ -15,7 +15,7 @@
 		6A21D47D15CBD55E00FF9DEE /* GestureRecognizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21D47C15CBD55E00FF9DEE /* GestureRecognizerAppDelegate.m */; };
 		6A21D48015CBD55F00FF9DEE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A21D47E15CBD55E00FF9DEE /* MainStoryboard.storyboard */; };
 		6A21D48315CBD55F00FF9DEE /* GestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A21D48215CBD55F00FF9DEE /* GestureRecognizerViewController.m */; };
-		6A21D48E15CBD5B700FF9DEE /* game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A21D48D15CBD5B700FF9DEE /* game.jpg */; };
+		6A33319915E5FF320061DF8D /* game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A33319815E5FF320061DF8D /* game.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +29,10 @@
 		6A21D47A15CBD55E00FF9DEE /* GestureRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureRecognizer-Prefix.pch"; sourceTree = "<group>"; };
 		6A21D47B15CBD55E00FF9DEE /* GestureRecognizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerAppDelegate.h; sourceTree = "<group>"; };
 		6A21D47C15CBD55E00FF9DEE /* GestureRecognizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerAppDelegate.m; sourceTree = "<group>"; };
-		6A21D47F15CBD55F00FF9DEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A21D47F15CBD55F00FF9DEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6A21D48115CBD55F00FF9DEE /* GestureRecognizerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerViewController.h; sourceTree = "<group>"; };
 		6A21D48215CBD55F00FF9DEE /* GestureRecognizerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerViewController.m; sourceTree = "<group>"; };
-		6A21D48D15CBD5B700FF9DEE /* game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = game.jpg; path = ../../../../../../Desktop/game.jpg; sourceTree = "<group>"; };
+		6A33319815E5FF320061DF8D /* game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = game.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		6A21D47315CBD55E00FF9DEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A21D48D15CBD5B700FF9DEE /* game.jpg */,
+				6A33319815E5FF320061DF8D /* game.jpg */,
 				6A21D47415CBD55E00FF9DEE /* GestureRecognizer-Info.plist */,
 				6A21D47515CBD55E00FF9DEE /* InfoPlist.strings */,
 				6A21D47815CBD55E00FF9DEE /* main.m */,
@@ -154,7 +154,7 @@
 			files = (
 				6A21D47715CBD55E00FF9DEE /* InfoPlist.strings in Resources */,
 				6A21D48015CBD55F00FF9DEE /* MainStoryboard.storyboard in Resources */,
-				6A21D48E15CBD5B700FF9DEE /* game.jpg in Resources */,
+				6A33319915E5FF320061DF8D /* game.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +279,7 @@
 				6A21D48815CBD55F00FF9DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

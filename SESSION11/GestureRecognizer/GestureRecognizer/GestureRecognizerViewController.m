@@ -49,9 +49,6 @@
     self.swipeRecignizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipe:)];
     
     [self.view addGestureRecognizer:self.swipeRecignizer];
-    
-
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
@@ -66,12 +63,13 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer {
-    
-    CGPoint translation = [recognizer translationInView:self.view];
-    recognizer.view.center = CGPointMake(recognizer.view.center.x + translation.x, 
-                                         recognizer.view.center.y + translation.y);
-    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer 
+{    
+//    CGPoint translation = [recognizer translationInView:self.view];
+    CGPoint translation = [recognizer locationInView:recognizer.view.superview];
+    recognizer.view.center = translation;
+//    recognizer.view.center = CGPointMake(recognizer.view.center.x + translation.x,recognizer.view.center.y + translation.y);
+  //  [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
     
 }
 
@@ -88,7 +86,6 @@
     rotateRecognizer.rotation = 0;    
 }
 
-
 - (void) handleTap:(UITapGestureRecognizer *)tapRcognizer
 {
     self.imageView.center = self.view.center;
@@ -99,15 +96,12 @@
 }
 
 - (void) handleSwipe:(UISwipeGestureRecognizer *)swipeRecognizer
-{   
-    
-    
+{
     self.myTimer = [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(bounce) userInfo:nil repeats:YES];
 }
 
 - (void) bounce
 {
-    
     self.imageView.center = CGPointMake(self.imageView.center.x+_position.x, self.imageView.center.y+_position.y);
     if(self.imageView.center.x >260 || self.imageView.center.x <60)
         _position.x = -_position.x;

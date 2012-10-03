@@ -8,29 +8,6 @@
 
 #import "viewAnnotation.h"
 
-@interface viewAnnotation (Private)
-
-- (void)customInitialize;
-- (void)releaseAllViews;
-
-@end
-
-@implementation viewAnnotation (Private)
-
-- (void)customInitialize
-{
-    
-}
-
-- (void)releaseAllViews
-{
-    
-}
-
-@end
-
-#pragma mark -
-
 @implementation viewAnnotation
 @synthesize titleLabel = _titleLabel;
 @synthesize imageLabel = _imageLabel;
@@ -46,7 +23,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) 
     {
-		[self customInitialize];
+       
     }
 
     return self;
@@ -89,7 +66,6 @@
     [self setImageLabel:nil];
     [self setSubtitleLabel:nil];
     [super viewDidUnload];
-    [self releaseAllViews];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
